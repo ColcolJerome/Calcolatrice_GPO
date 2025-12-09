@@ -1,0 +1,151 @@
+\doxysection{Calcolatrice.\+Operazioni Class Reference}
+\hypertarget{class_calcolatrice_1_1_operazioni}{}\label{class_calcolatrice_1_1_operazioni}\index{Calcolatrice.Operazioni@{Calcolatrice.Operazioni}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{class_calcolatrice_1_1_operazioni_af27ac87ad796e6535f39e644c2a30e1f}{Calcola}} (double primo\+Numero, double secondo\+Numero, String operazione)
+\begin{DoxyCompactList}\small\item\em Effettua sui due numeri assegnati l\textquotesingle{}operazione voluta 
+\begin{DoxyItemize}
+\item +\+:somma  
+\item -\/\+:sottrazione  
+\item x\+:moltiplicazione  
+\item /\+:divisione  
+\end{DoxyItemize}. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calcolatrice_1_1_operazioni_a090fe6f8207de72d58110177c39c91b1}{Somma}} (double primo\+Numero, double secondo\+Numero)
+\begin{DoxyCompactList}\small\item\em Calcola la somma di due numeri dati. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calcolatrice_1_1_operazioni_ab19c4775628a428b923c59a57a75f65e}{Sottrazione}} (double primo\+Numero, double secondo\+Numero)
+\begin{DoxyCompactList}\small\item\em Calcola la sottrazione di due numeri dati. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calcolatrice_1_1_operazioni_a048ed6d65996e69eebe44b73cddd6199}{Moltiplicazione}} (double primo\+Numero, double secondo\+Numero)
+\begin{DoxyCompactList}\small\item\em Calcola il prodotto di due numeri dati. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_calcolatrice_1_1_operazioni_a061da30c79a2745a8b0c2fe74b975a7f}{Divisione}} (double primo\+Numero, double secondo\+Numero)
+\begin{DoxyCompactList}\small\item\em Calcola il rapporto di due numeri dati. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{class_calcolatrice_1_1_operazioni_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_calcolatrice_1_1_operazioni_af27ac87ad796e6535f39e644c2a30e1f}\index{Calcolatrice.Operazioni@{Calcolatrice.Operazioni}!Calcola@{Calcola}}
+\index{Calcola@{Calcola}!Calcolatrice.Operazioni@{Calcolatrice.Operazioni}}
+\doxysubsubsection{\texorpdfstring{Calcola()}{Calcola()}}
+{\footnotesize\ttfamily \label{class_calcolatrice_1_1_operazioni_af27ac87ad796e6535f39e644c2a30e1f} 
+double Calcolatrice.\+Operazioni.\+Calcola (\begin{DoxyParamCaption}\item[{double}]{primo\+Numero}{, }\item[{double}]{secondo\+Numero}{, }\item[{String}]{operazione}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Effettua sui due numeri assegnati l\textquotesingle{}operazione voluta 
+\begin{DoxyItemize}
+\item +\+:somma  
+\item -\/\+:sottrazione  
+\item x\+:moltiplicazione  
+\item /\+:divisione  
+\end{DoxyItemize}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em primo\+Numero} & Primo numero dell\textquotesingle{}operazione\\
+\hline
+{\em secondo\+Numero} & Secondo numero dell\textquotesingle{}operazione\\
+\hline
+{\em operazione} & Operazione da calcolare\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \doxylink{class_calcolatrice_1_1_not_an_operation_exeption}{Not\+An\+Operation\+Exeption}} & Lanciato quando viene inserito una operazione non valida \\
+\hline
+\end{DoxyExceptions}
+/// 
+\begin{DoxyExceptions}{Exceptions}
+{\em \doxylink{class_calcolatrice_1_1_is_infinite_exeption}{Is\+Infinite\+Exeption}} & Lanciato quando viene effettutata una divisione per 0 \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_calcolatrice_1_1_operazioni_a061da30c79a2745a8b0c2fe74b975a7f}\index{Calcolatrice.Operazioni@{Calcolatrice.Operazioni}!Divisione@{Divisione}}
+\index{Divisione@{Divisione}!Calcolatrice.Operazioni@{Calcolatrice.Operazioni}}
+\doxysubsubsection{\texorpdfstring{Divisione()}{Divisione()}}
+{\footnotesize\ttfamily \label{class_calcolatrice_1_1_operazioni_a061da30c79a2745a8b0c2fe74b975a7f} 
+double Calcolatrice.\+Operazioni.\+Divisione (\begin{DoxyParamCaption}\item[{double}]{primo\+Numero}{, }\item[{double}]{secondo\+Numero}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calcola il rapporto di due numeri dati. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em primo\+Numero} & \\
+\hline
+{\em secondo\+Numero} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ritorna il risultato della moltiplicazione
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em System.\+Divide\+By\+Zero\+Exception} & Lanciato se si effettua una divisione per 0\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_calcolatrice_1_1_operazioni_a048ed6d65996e69eebe44b73cddd6199}\index{Calcolatrice.Operazioni@{Calcolatrice.Operazioni}!Moltiplicazione@{Moltiplicazione}}
+\index{Moltiplicazione@{Moltiplicazione}!Calcolatrice.Operazioni@{Calcolatrice.Operazioni}}
+\doxysubsubsection{\texorpdfstring{Moltiplicazione()}{Moltiplicazione()}}
+{\footnotesize\ttfamily \label{class_calcolatrice_1_1_operazioni_a048ed6d65996e69eebe44b73cddd6199} 
+double Calcolatrice.\+Operazioni.\+Moltiplicazione (\begin{DoxyParamCaption}\item[{double}]{primo\+Numero}{, }\item[{double}]{secondo\+Numero}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calcola il prodotto di due numeri dati. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em primo\+Numero} & \\
+\hline
+{\em secondo\+Numero} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ritorna il risultato della moltiplicazione
+\end{DoxyReturn}
+\Hypertarget{class_calcolatrice_1_1_operazioni_a090fe6f8207de72d58110177c39c91b1}\index{Calcolatrice.Operazioni@{Calcolatrice.Operazioni}!Somma@{Somma}}
+\index{Somma@{Somma}!Calcolatrice.Operazioni@{Calcolatrice.Operazioni}}
+\doxysubsubsection{\texorpdfstring{Somma()}{Somma()}}
+{\footnotesize\ttfamily \label{class_calcolatrice_1_1_operazioni_a090fe6f8207de72d58110177c39c91b1} 
+double Calcolatrice.\+Operazioni.\+Somma (\begin{DoxyParamCaption}\item[{double}]{primo\+Numero}{, }\item[{double}]{secondo\+Numero}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calcola la somma di due numeri dati. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em primo\+Numero} & \\
+\hline
+{\em secondo\+Numero} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ritorna il risultato della somma
+\end{DoxyReturn}
+\Hypertarget{class_calcolatrice_1_1_operazioni_ab19c4775628a428b923c59a57a75f65e}\index{Calcolatrice.Operazioni@{Calcolatrice.Operazioni}!Sottrazione@{Sottrazione}}
+\index{Sottrazione@{Sottrazione}!Calcolatrice.Operazioni@{Calcolatrice.Operazioni}}
+\doxysubsubsection{\texorpdfstring{Sottrazione()}{Sottrazione()}}
+{\footnotesize\ttfamily \label{class_calcolatrice_1_1_operazioni_ab19c4775628a428b923c59a57a75f65e} 
+double Calcolatrice.\+Operazioni.\+Sottrazione (\begin{DoxyParamCaption}\item[{double}]{primo\+Numero}{, }\item[{double}]{secondo\+Numero}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calcola la sottrazione di due numeri dati. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em primo\+Numero} & \\
+\hline
+{\em secondo\+Numero} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ritorna il risultato della sottrazione
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Calcolatrice/Operazioni.\+cs\end{DoxyCompactItemize}
