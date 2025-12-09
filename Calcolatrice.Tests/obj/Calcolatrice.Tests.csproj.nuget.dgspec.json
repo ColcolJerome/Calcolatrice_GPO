@@ -100,6 +100,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj": {
+                "projectPath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj"
+              },
               "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\Calcolatrice.csproj": {
                 "projectPath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\Calcolatrice.csproj"
               }

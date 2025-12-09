@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OT0Mxtjlat0=",
+  "dgSpecHash": "MzJQLe5OBOM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\Calcolatrice.Tests.csproj",
   "expectedPackageFiles": [
@@ -22,5 +22,15 @@
     "C:\\Users\\Colco\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\Colco\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\Calcolatrice.Tests.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\Calcolatrice.Tests.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
