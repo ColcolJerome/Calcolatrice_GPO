@@ -25,36 +25,51 @@
 var NAVTREE =
 [
   [ "Calcolatrice", "index.html", [
-    [ "Calcolatrice C# Windows Forms", "md__r_e_a_d_m_e.html", [
-      [ "Indice", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "Descrizione del progetto", "md__r_e_a_d_m_e.html#autotoc_md4", null ],
-      [ "Funzionalità", "md__r_e_a_d_m_e.html#autotoc_md6", [
-        [ "Funzionalità già implementate", "md__r_e_a_d_m_e.html#autotoc_md7", null ]
+    [ "Estensioni Funzioni Scientifiche - Calcolatrice C", "md_feature___operazioni.html", [
+      [ "Introduzione", "md_feature___operazioni.html#autotoc_md1", null ],
+      [ "Funzionalità aggiunte", "md_feature___operazioni.html#autotoc_md3", [
+        [ "1) Potenza", "md_feature___operazioni.html#autotoc_md4", null ],
+        [ "2) Modulo", "md_feature___operazioni.html#autotoc_md5", null ],
+        [ "3) Radice quadrata", "md_feature___operazioni.html#autotoc_md6", null ],
+        [ "4) Seno", "md_feature___operazioni.html#autotoc_md7", null ],
+        [ "5) Coseno", "md_feature___operazioni.html#autotoc_md8", null ],
+        [ "6) Tangente", "md_feature___operazioni.html#autotoc_md9", null ]
       ] ],
-      [ "Tecnologie utilizzate", "md__r_e_a_d_m_e.html#autotoc_md9", null ],
-      [ "Versione", "md__r_e_a_d_m_e.html#autotoc_md11", null ],
-      [ "Installazione e avvio", "md__r_e_a_d_m_e.html#autotoc_md13", null ]
+      [ "Logica implementativa", "md_feature___operazioni.html#autotoc_md11", null ]
     ] ],
-    [ "Packages", "namespaces.html", [
+    [ "Calcolatrice C# \\", "md__r_e_a_d_m_e.html", [
+      [ "Indice", "md__r_e_a_d_m_e.html#autotoc_md14", null ],
+      [ "Descrizione del progetto", "md__r_e_a_d_m_e.html#autotoc_md16", null ],
+      [ "Funzionalità", "md__r_e_a_d_m_e.html#autotoc_md18", [
+        [ "Funzionalità già implementate", "md__r_e_a_d_m_e.html#autotoc_md19", null ]
+      ] ],
+      [ "Tecnologie utilizzate", "md__r_e_a_d_m_e.html#autotoc_md21", null ],
+      [ "Versione", "md__r_e_a_d_m_e.html#autotoc_md23", null ],
+      [ "Installazione e avvio", "md__r_e_a_d_m_e.html#autotoc_md25", null ]
+    ] ],
+    [ "Package", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+    [ "Classi", "annotated.html", [
+      [ "Elenco dei tipi composti", "annotated.html", "annotated_dup" ],
+      [ "Indice dei tipi composti", "classes.html", null ],
+      [ "Gerarchia delle classi", "hierarchy.html", "hierarchy" ],
+      [ "Membri dei composti", "functions.html", [
+        [ "Tutto", "functions.html", null ],
+        [ "Funzioni", "functions_func.html", null ]
       ] ]
+    ] ],
+    [ "File", "files.html", [
+      [ "Elenco dei file", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"_assembly_info_8cs_source.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
-var LISTOFALLMEMBERS = 'List of all members';
+var SYNCONMSG = 'cliccare per disabilitare la sincronizzazione del pannello';
+var SYNCOFFMSG = 'cliccare per abilitare la sincronizzazione del pannello';
+var LISTOFALLMEMBERS = 'Elenco di tutti i membri';

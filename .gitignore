@@ -5,7 +5,7 @@
 *.suo
 *.userosscache
 *.sln.docstates
-
+*.db
 # Build outputs
 bin/
 obj/
@@ -56,4 +56,9 @@ Thumbs.db
 # Specific project folders (if present)
 Calcolatrice/.vs/
 Calcolatrice.Tests/obj/
-Calcolatrice.Core/obj/
+Calcolatrice.Core/obj
+
+# Ignore Visual Studio caches and Copilot indexes
+.vs/
+**/CodeChunks.db
+**/CopilotIndices/

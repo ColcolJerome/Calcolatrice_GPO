@@ -95,7 +95,7 @@ namespace Calcolatrice.Core
         /// <param name="numero"></param>
         /// <param name="operazione"></param>
         /// <returns></returns>
-        /// <exception cref="NotAnOperationExeption"></exception>
+        /// <exception cref="NotAnOperationExeption">Lanciato quando viene inserito una operazione non valida</exception>
         public static double Calcola(double numero, String operazione)
         {
             double risultato = 0;

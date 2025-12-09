@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windows_20forms_0',['Calcolatrice C# Windows Forms',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['operazioni_0',['Operazioni',['../class_calcolatrice_1_1_core_1_1_operazioni.html',1,'Calcolatrice::Core']]]
 ];

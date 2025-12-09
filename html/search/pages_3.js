@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['e_20avvio_0',['Installazione e avvio',['../md__r_e_a_d_m_e.html#autotoc_md13',1,'']]]
+  ['4_20seno_0',['4) Seno',['../md_feature___operazioni.html#autotoc_md7',1,'']]]
 ];

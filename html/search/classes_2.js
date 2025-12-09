@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['notanoperationexeption_0',['NotAnOperationExeption',['../class_calcolatrice_1_1_not_an_operation_exeption.html',1,'Calcolatrice']]]
+  ['operazioni_0',['Operazioni',['../class_calcolatrice_1_1_core_1_1_operazioni.html',1,'Calcolatrice::Core']]]
 ];

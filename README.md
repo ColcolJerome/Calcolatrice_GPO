@@ -1,4 +1,4 @@
-# Calcolatrice C# Windows Forms
+# Calcolatrice C# \#
 
 Un semplice progetto di calcolatrice sviluppato in **C#** utilizzabile su CLI.  
 Il progetto permette di effettuare le principali operazioni matematiche (+, -, ×, ÷).
