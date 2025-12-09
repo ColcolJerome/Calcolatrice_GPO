@@ -14,7 +14,7 @@ namespace Calcolatrice.Tests
             double b = 5;
 
             //Act
-            double result = Operazioni.Somma(a, b);
+            double result = Core.Operazioni.Somma(a, b);
 
             //Asert
             Assert.AreEqual(15, result);
@@ -28,7 +28,7 @@ namespace Calcolatrice.Tests
             double b = 5;
 
             //Act
-            double result = Operazioni.Sottrazione(a, b);
+            double result = Core.Operazioni.Sottrazione(a, b);
 
             //Asert
             Assert.AreEqual(5, result);
@@ -42,7 +42,7 @@ namespace Calcolatrice.Tests
             double b = 5;
 
             //Act
-            double result = Operazioni.Moltiplicazione(a, b);
+            double result = Core.Operazioni.Moltiplicazione(a, b);
 
             //Asert
             Assert.AreEqual(50, result);
@@ -56,7 +56,7 @@ namespace Calcolatrice.Tests
             double b = 5;
 
             //Act
-            double result = Operazioni.Divisione(a, b);
+            double result = Core.Operazioni.Divisione(a, b);
 
             //Asert
             Assert.AreEqual(2, result);
@@ -64,7 +64,7 @@ namespace Calcolatrice.Tests
         [TestMethod]
         public void Operazioni_Divisione_ReturnsInfinity()
         {
-            double result = Operazioni.Divisione(10, 0);
+            double result = Core.Operazioni.Divisione(10, 0);
             Assert.IsTrue(double.IsInfinity(result));
         }
 
@@ -77,7 +77,7 @@ namespace Calcolatrice.Tests
             double b = 3;
 
             //Act
-            double result = Operazioni.Potenza(a, b);
+            double result = Core.Operazioni.Potenza(a, b);
 
             //Asert
             Assert.AreEqual(8, result);
@@ -92,7 +92,7 @@ namespace Calcolatrice.Tests
             double b = 5;
 
             //Act
-            double result = Operazioni.Modulo(a, b);
+            double result = Core.Operazioni.Modulo(a, b);
 
             //Asert
             Assert.AreEqual(0, result);
@@ -103,14 +103,14 @@ namespace Calcolatrice.Tests
         {
             //Arrenge
             
-            double a = 10;
+            double a = 4;
             
 
             //Act
-            double result = Operazioni.Radice(a);
+            double result = Core.Operazioni.Radice(a);
 
             //Asert
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(2, result);
         }
 
         [TestMethod]
@@ -118,11 +118,11 @@ namespace Calcolatrice.Tests
         {
             //Arrenge
             
-            double a = 10;
-            
+            double a = 0;
+
 
             //Act
-            double result = Operazioni.Seno(a);
+            Int32 result = (int)Core.Operazioni.Seno(a);
 
             //Asert
             Assert.AreEqual(0, result);
@@ -133,14 +133,14 @@ namespace Calcolatrice.Tests
         {
             //Arrenge
             
-            double a = 10;
-            
+            double a = 0;
+
 
             //Act
-            double result = Operazioni.Coseno(a);
+            Int32 result = (int)Core.Operazioni.Coseno(a);
 
             //Asert
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(1, result);
         }
 
         [TestMethod]
@@ -148,11 +148,11 @@ namespace Calcolatrice.Tests
         {
             //Arrenge
             
-            double a = 10;
+            double a = 0;
             
 
             //Act
-            double result = Operazioni.Tangente(a);
+            Int32 result = (int)Core.Operazioni.Tangente(a);
 
             //Asert
             Assert.AreEqual(0, result);

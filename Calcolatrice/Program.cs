@@ -25,22 +25,22 @@ namespace Calcolatrice
                     if (!operazioni.Contains(operazione)) { throw new ArgumentException("Inserisci una operazione valida"); }
                     if (operazioniSingolaCifra.Contains(operazione))
                     {
-                        Console.WriteLine("Risultato " + Operazioni.Calcola(primoNumero, operazione).ToString());
+                        Console.WriteLine("Risultato " + Core.Operazioni.Calcola(primoNumero, operazione).ToString());
                         
                     }
                     else
                     {
                         Console.WriteLine("Inserisci il secondo numero");
                         secondoNumero = Int32.Parse(Console.ReadLine());
-                        Console.WriteLine("Risultato " + Operazioni.Calcola(primoNumero, secondoNumero, operazione).ToString());
+                        Console.WriteLine("Risultato " + Core.Operazioni.Calcola(primoNumero, secondoNumero, operazione).ToString());
                     }
                     break;
                 }
-                catch (NotAnOperationExeption e)
+                catch (Core.NotAnOperationExeption e)
                 {
                     Console.WriteLine(e.Message);
                 }
-                catch (IsInfiniteExeption e)
+                catch (Core.IsInfiniteExeption e)
                 {
                     Console.WriteLine(e.Message);
                 }
