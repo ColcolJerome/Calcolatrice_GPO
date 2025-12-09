@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['somma_0',['Somma',['../class_calcolatrice_1_1_operazioni.html#a090fe6f8207de72d58110177c39c91b1',1,'Calcolatrice::Operazioni']]],
-  ['sottrazione_1',['Sottrazione',['../class_calcolatrice_1_1_operazioni.html#ab19c4775628a428b923c59a57a75f65e',1,'Calcolatrice::Operazioni']]]
+  ['potenza_0',['Potenza',['../class_calcolatrice_1_1_operazioni.html#a17bf888a3c50bbe8798ba44339d8c9cc',1,'Calcolatrice::Operazioni']]]
 ];

@@ -82,5 +82,80 @@ namespace Calcolatrice.Tests
             //Asert
             Assert.AreEqual(8, result);
         }
+
+        [TestMethod]
+        public void Operazioni_Modulo_ReturnsDouble()
+        {
+            //Arrenge
+            
+            double a = 10;
+            double b = 5;
+
+            //Act
+            double result = Operazioni.Modulo(a, b);
+
+            //Asert
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
+        public void Operazioni_Radice_ReturnsDouble()
+        {
+            //Arrenge
+            
+            double a = 10;
+            
+
+            //Act
+            double result = Operazioni.Radice(a);
+
+            //Asert
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
+        public void Operazioni_Seno_ReturnsDouble()
+        {
+            //Arrenge
+            
+            double a = 10;
+            
+
+            //Act
+            double result = Operazioni.Seno(a);
+
+            //Asert
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
+        public void Operazioni_Coseno_ReturnsDouble()
+        {
+            //Arrenge
+            
+            double a = 10;
+            
+
+            //Act
+            double result = Operazioni.Coseno(a);
+
+            //Asert
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
+        public void Operazioni_Tangente_ReturnsDouble()
+        {
+            //Arrenge
+            
+            double a = 10;
+            
+
+            //Act
+            double result = Operazioni.Tangente(a);
+
+            //Asert
+            Assert.AreEqual(0, result);
+        }
     }
 }
