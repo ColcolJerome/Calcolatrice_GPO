@@ -1,8 +1,0 @@
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Debug\Calcolatrice.exe.config
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Debug\Calcolatrice.exe
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Debug\Calcolatrice.pdb
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Debug\Calcolatrice.csproj.AssemblyReference.cache
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Debug\Calcolatrice.csproj.CoreCompileInputs.cache
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Debug\Calcolatrice.exe
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Debug\Calcolatrice.pdb
-C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Debug\Calcolatrice.exe.config
