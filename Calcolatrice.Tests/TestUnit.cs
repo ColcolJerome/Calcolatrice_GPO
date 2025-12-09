@@ -67,5 +67,20 @@ namespace Calcolatrice.Tests
             double result = Operazioni.Divisione(10, 0);
             Assert.IsTrue(double.IsInfinity(result));
         }
+
+        [TestMethod]
+        public void Operazioni_Potenza_ReturnsDouble()
+        {
+            //Arrenge
+
+            double a = 2;
+            double b = 3;
+
+            //Act
+            double result = Operazioni.Potenza(a, b);
+
+            //Asert
+            Assert.AreEqual(8, result);
+        }
     }
 }

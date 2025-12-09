@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "x10CRYyd/cQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Colco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Colco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

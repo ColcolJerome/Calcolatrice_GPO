@@ -7,7 +7,10 @@
       "RelativeMoniker": "D:0:0:{A6D12882-3F72-466D-976E-F32CBB4E1561}|Calcolatrice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6D12882-3F72-466D-976E-F32CBB4E1561}|Calcolatrice.csproj|c:\\users\\colco\\onedrive\\desktop\\gpo\\colcol_iqbal\\calcolatrice\\operazioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76674A63-CF6C-4D86-A7EF-1F9F9B18492C}|..\\Calcolatrice.Tests\\Calcolatrice.Tests.csproj|c:\\users\\colco\\onedrive\\desktop\\gpo\\colcol_iqbal\\calcolatrice.tests\\testunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D12882-3F72-466D-976E-F32CBB4E1561}|Calcolatrice.csproj|C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\operazioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6D12882-3F72-466D-976E-F32CBB4E1561}|Calcolatrice.csproj|solutionrelative:operazioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,19 +21,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Operazioni.cs",
-              "DocumentMoniker": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\Operazioni.cs",
-              "RelativeDocumentMoniker": "Operazioni.cs",
-              "ToolTip": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\Operazioni.cs",
-              "RelativeToolTip": "Operazioni.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwAwAAAAAAAAAAAAAAA==",
+              "Title": "TestUnit.cs",
+              "DocumentMoniker": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\TestUnit.cs",
+              "RelativeDocumentMoniker": "..\\Calcolatrice.Tests\\TestUnit.cs",
+              "ToolTip": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\TestUnit.cs",
+              "RelativeToolTip": "..\\Calcolatrice.Tests\\TestUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T20:50:14.972Z",
+              "WhenOpened": "2025-12-09T16:24:29.421Z",
               "EditorCaption": ""
             },
             {
@@ -41,10 +52,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T19:24:23.464Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Operazioni.cs",
+              "DocumentMoniker": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\Operazioni.cs",
+              "RelativeDocumentMoniker": "Operazioni.cs",
+              "ToolTip": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice\\Operazioni.cs",
+              "RelativeToolTip": "Operazioni.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwKkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T20:50:14.972Z"
             }
           ]
         }
