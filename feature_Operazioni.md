@@ -1,4 +1,4 @@
-#  Estensioni Funzioni Scientifiche - Calcolatrice C#
+#  Estensioni Funzioni Scientifiche - Calcolatrice C\# #
 
 ##  Introduzione
 Questa feature estende la versione base della calcolatrice implementando operazioni matematiche di tipo scientifico.  

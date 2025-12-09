@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['modulo_0',['Modulo',['../class_calcolatrice_1_1_operazioni.html#a0072853b0e2be4323d71f851a429a1f1',1,'Calcolatrice::Operazioni']]],
-  ['moltiplicazione_1',['Moltiplicazione',['../class_calcolatrice_1_1_operazioni.html#ab86094a3ecd43e973ab06e94af228b96',1,'Calcolatrice::Operazioni']]]
+  ['modulo_0',['Modulo',['../class_calcolatrice_1_1_core_1_1_operazioni.html#a68e0b7760732a1a93f0176a78aac55ba',1,'Calcolatrice::Core::Operazioni']]],
+  ['moltiplicazione_1',['Moltiplicazione',['../class_calcolatrice_1_1_core_1_1_operazioni.html#ad80c9d87eda88324e7caf98bfcc1efb8',1,'Calcolatrice::Core::Operazioni']]]
 ];

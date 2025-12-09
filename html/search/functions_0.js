@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['calcola_0',['Calcola',['../class_calcolatrice_1_1_operazioni.html#af27ac87ad796e6535f39e644c2a30e1f',1,'Calcolatrice.Operazioni.Calcola(double primoNumero, double secondoNumero, String operazione)'],['../class_calcolatrice_1_1_operazioni.html#a89f05e06a50a51e8f59b197ff18c4d08',1,'Calcolatrice.Operazioni.Calcola(double numero, String operazione)']]],
-  ['coseno_1',['Coseno',['../class_calcolatrice_1_1_operazioni.html#ab665034b5c4ece9802000d0bbe385948',1,'Calcolatrice::Operazioni']]]
+  ['calcola_0',['Calcola',['../class_calcolatrice_1_1_core_1_1_operazioni.html#a81b318de0a7c299284d1d1bf35efa382',1,'Calcolatrice.Core.Operazioni.Calcola(double primoNumero, double secondoNumero, String operazione)'],['../class_calcolatrice_1_1_core_1_1_operazioni.html#a841ee78d511cb592c0f068ea201d236b',1,'Calcolatrice.Core.Operazioni.Calcola(double numero, String operazione)']]],
+  ['coseno_1',['Coseno',['../class_calcolatrice_1_1_core_1_1_operazioni.html#aebee7f07a2b694575773c91369699e63',1,'Calcolatrice::Core::Operazioni']]]
 ];

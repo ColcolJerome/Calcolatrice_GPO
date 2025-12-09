@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windows_20forms_0',['Calcolatrice C# Windows Forms',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['già_20implementate_0',['Funzionalità già implementate',['../md__r_e_a_d_m_e.html#autotoc_md19',1,'']]]
 ];

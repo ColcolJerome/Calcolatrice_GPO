@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['già_20implementate_0',['Funzionalità già implementate',['../md__r_e_a_d_m_e.html#autotoc_md7',1,'']]]
+  ['6_20tangente_0',['6) Tangente',['../md_feature___operazioni.html#autotoc_md9',1,'']]]
 ];

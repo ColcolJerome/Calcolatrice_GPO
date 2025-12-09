@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['versione_0',['Versione',['../md__r_e_a_d_m_e.html#autotoc_md11',1,'']]]
+  ['notanoperationexeption_0',['NotAnOperationExeption',['../class_calcolatrice_1_1_core_1_1_not_an_operation_exeption.html',1,'Calcolatrice::Core']]]
 ];
