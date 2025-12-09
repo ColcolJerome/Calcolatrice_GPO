@@ -25,6 +25,16 @@
 var NAVTREE =
 [
   [ "Calcolatrice", "index.html", [
+    [ "Calcolatrice C# Windows Forms", "md__r_e_a_d_m_e.html", [
+      [ "Indice", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "Descrizione del progetto", "md__r_e_a_d_m_e.html#autotoc_md4", null ],
+      [ "Funzionalità", "md__r_e_a_d_m_e.html#autotoc_md6", [
+        [ "Funzionalità già implementate", "md__r_e_a_d_m_e.html#autotoc_md7", null ]
+      ] ],
+      [ "Tecnologie utilizzate", "md__r_e_a_d_m_e.html#autotoc_md9", null ],
+      [ "Versione", "md__r_e_a_d_m_e.html#autotoc_md11", null ],
+      [ "Installazione e avvio", "md__r_e_a_d_m_e.html#autotoc_md13", null ]
+    ] ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],

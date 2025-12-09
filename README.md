@@ -1,11 +1,12 @@
-#  Calcolatrice C# Windows Forms
+# Calcolatrice C# Windows Forms
 
 Un semplice progetto di calcolatrice sviluppato in **C#** utilizzabile su CLI.  
 Il progetto permette di effettuare le principali operazioni matematiche (+, -, ×, ÷).
 
 ---
 
-##  Indice
+## Indice
+
 - [Descrizione del progetto](#descrizione-del-progetto)
 - [Funzionalità](#funzionalità)
 - [Tecnologie utilizzate](#tecnologie-utilizzate)
@@ -17,39 +18,53 @@ Il progetto permette di effettuare le principali operazioni matematiche (+, -, �
 
 ---
 
-##  Descrizione del progetto
+## Descrizione del progetto
+
 Questo progetto nasce da un lavoro svolto a scuola nel corso di programmazione, e viene scelto come base per la simulazione
 di workflow collaborativo descritta nel livello **GPO**.  
 L’obiettivo è mantenere un codice chiaro, commentato, documentato e versionato tramite Git/GitHub.
 
 ---
 
-##  Funzionalità
+## Funzionalità
+
 ### Funzionalità già implementate
 
 - Operazioni matematiche:
+
   - Addizione
   - Sottrazione
   - Moltiplicazione
   - Divisione
+  - Potenza
+  - Modulo
+  - Radice
+  - Seno
+  - Coseno
+  - Tangente
 
 - Gestione errori di divisione per zero con messaggio
 
 ---
 
-##  Tecnologie utilizzate
+## Tecnologie utilizzate
+
 - **Linguaggio:** C#
 - **Framework:** .NET Windows Console
 - **IDE consigliato:** Visual Studio 2022
 - **Versionamento:** Git & GitHub
 
 ---
+
 ## Versione
-v1.0.0
+
+v1.1.0
 
 ---
 
-##  Installazione e avvio
+## Installazione e avvio
+
 1. Clona la repository:
    ```bash
    git clone https://github.com/ColcolJerome/Calcolatrice_GPO
+   ```
