@@ -687,11 +687,24 @@
       },
       "Calcolatrice/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Calcolatrice.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Calcolatrice.dll": {}
         },
         "runtime": {
           "bin/placeholder/Calcolatrice.dll": {}
+        }
+      },
+      "Calcolatrice.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Calcolatrice.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calcolatrice.Core.dll": {}
         }
       }
     }
@@ -1657,6 +1670,11 @@
       "type": "project",
       "path": "../Calcolatrice/Calcolatrice.csproj",
       "msbuildProject": "../Calcolatrice/Calcolatrice.csproj"
+    },
+    "Calcolatrice.Core/1.0.0": {
+      "type": "project",
+      "path": "../Calcolatrice.Core/Calcolatrice.Core.csproj",
+      "msbuildProject": "../Calcolatrice.Core/Calcolatrice.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
