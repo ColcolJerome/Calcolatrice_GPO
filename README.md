@@ -60,7 +60,7 @@ Nelle operazioni logiche come Somma,Moltiplicazione,Sottrazione,Divisione il pro
 
 ## Versione
 
-v1.1.0
+v1.1.1
 
 ---
 
