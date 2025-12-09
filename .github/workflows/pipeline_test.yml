@@ -11,25 +11,18 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install Wine
-      run: sudo apt-get install -y wine
-    - name: Setup .NET Framework
-      run: |
-        sudo apt-get update
-        curl -LO https://download.visualstudio.microsoft.com/download/pr/7e3ece36-1b36-4e1a-bc6a-4bcdcdb760cc/1c470f56dc40bfa268a4f50b0e26b260/dotnet-framework-targeting-pack-4.7.2.exe
-        wine dotnet-framework-targeting-pack-4.7.2.exe /quiet
     - uses: actions/checkout@v4
-    - name: Setup .NET
+    - name: Setup dotnet
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
-    - name: Restore dependencies
+        dotnet-version: '8.0.x'
+    - name: Install dependencies
       run: dotnet restore ./Calcolatrice/Calcolatrice.sln
     - name: Build
-      run: dotnet build ./Calcolatrice/Calcolatrice.sln --no-restore
-    - name: Test
-      run: dotnet test ./Calcolatrice/Calcolatrice.sln --no-build --verbosity normal
+      run: dotnet build ./Calcolatrice/Calcolatrice.sln --no-restore --configuration Release
+    - name: Test with the dotnet CLI
+      run: dotnet test ./Calcolatrice/Calcolatrice.sln --no-build --configuration Release --verbosity normal
+
