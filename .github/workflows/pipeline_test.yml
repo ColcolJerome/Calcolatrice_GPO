@@ -5,9 +5,9 @@ name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "*" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "*" ]
 
 jobs:
   build:
@@ -20,9 +20,9 @@ jobs:
       with:
         dotnet-version: '8.0.x'
     - name: Install dependencies
-      run: dotnet restore ./Calcolatrice/Calcolatrice.sln
+      run: dotnet restore Calcolatrice.sln
     - name: Build
-      run: dotnet build ./Calcolatrice/Calcolatrice.sln --no-restore --configuration Release
+      run: dotnet build Calcolatrice.sln --no-restore --configuration Release
     - name: Test with the dotnet CLI
-      run: dotnet test ./Calcolatrice/Calcolatrice.sln --no-build --configuration Release --verbosity normal
+      run: dotnet test Calcolatrice.sln --no-build --configuration Release --verbosity normal
 
