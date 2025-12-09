@@ -15,6 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Setup .NET Framework
+      run: |
+        sudo apt-get update
+        curl -LO https://download.visualstudio.microsoft.com/download/pr/7e3ece36-1b36-4e1a-bc6a-4bcdcdb760cc/1c470f56dc40bfa268a4f50b0e26b260/dotnet-framework-targeting-pack-4.7.2.exe
+        wine dotnet-framework-targeting-pack-4.7.2.exe /quiet
     - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
