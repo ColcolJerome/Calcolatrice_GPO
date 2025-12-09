@@ -28,6 +28,8 @@ L’obiettivo è mantenere un codice chiaro, commentato, documentato e versionat
 
 ## Funzionalità
 
+Nelle operazioni logiche come Somma,Moltiplicazione,Sottrazione,Divisione il programma chiede da CLI due numeri tra cui eseguire l'operazione; mentre nelle funzioni Potenza,Modulo,Radice,Seno,Coseno il programma richiede univocamente un unico numero.
+
 ### Funzionalità già implementate
 
 - Operazioni matematiche:
