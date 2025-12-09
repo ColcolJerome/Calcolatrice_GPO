@@ -1,0 +1,11 @@
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Release\Calcolatrice.exe.config
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Release\Calcolatrice.exe
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Release\Calcolatrice.pdb
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Release\Calcolatrice.csproj.AssemblyReference.cache
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Release\Calcolatrice.csproj.CoreCompileInputs.cache
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Release\Calcolatrice.exe
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Release\Calcolatrice.pdb
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Release\Calcolatrice.exe.config
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Release\Calcolatrice.Core.dll
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\bin\Release\Calcolatrice.Core.pdb
+C:\Users\Colco\OneDrive\Desktop\GPO\Colcol_Iqbal\Calcolatrice\obj\Release\Calcolat.C8DDDECD.Up2Date
