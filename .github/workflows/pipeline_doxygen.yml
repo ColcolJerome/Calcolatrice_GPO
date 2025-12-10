@@ -2,8 +2,8 @@ name: Genera Documentazione
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: 
+        ["*"]
 
 jobs:
   docs:
@@ -14,10 +14,6 @@ jobs:
 
       - name: Installa Doxygen
         run: sudo apt-get install -y doxygen graphviz
-
-      - name: Imposta versione nel Doxyfile
-        run: |
-          sed -i "s/^PROJECT_NUMBER.*/PROJECT_NUMBER = ${GITHUB_REF_NAME}/" Doxyfile
 
       - name: Genera docs
         run: doxygen Doxyfile
