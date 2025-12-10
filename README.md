@@ -58,7 +58,7 @@ E' stata implementata un'interfaccia utente migliorata in stile "video-gioco ret
 
 ## Versione
 
-v1.1.1
+v1.2.0
 
 ---
 
