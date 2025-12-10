@@ -10,14 +10,15 @@ namespace Calcolatrice
         static void Main(string[] args)
         {
 
-            Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             string[] operazioni = new string[] { "+", "-", "/", "*", "%", "^", "sen", "cos", "tan", "sqrt" };
             string[] operazioniSingolaCifra = new string[] { "sen", "cos", "tan", "sqrt" };
-            Int32 primoNumero = 0;
-            String operazione = "";
-            Int32 secondoNumero = 0;
+            double primoNumero = 0;
+            string operazione = "";
+            double secondoNumero = 0;
 
+            // Mostra l'header iniziale
             MostraHeader();
             MostraOperazioniDisponibili();
 
@@ -25,38 +26,61 @@ namespace Calcolatrice
             {
                 try
                 {
+                    // Input primo numero
                     MostraBoxInput("PRIMO NUMERO");
                     Console.Write("  ➤ ");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    primoNumero = Int32.Parse(Console.ReadLine());
+                    primoNumero = double.Parse(Console.ReadLine());
                     Console.ResetColor();
 
+                    // Input operazione
                     MostraBoxInput("OPERAZIONE");
                     Console.Write("  ➤ ");
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    operazione = Console.ReadLine();
+                    operazione = Console.ReadLine().ToLower();
                     Console.ResetColor();
 
                     if (!operazioni.Contains(operazione))
                     {
-                        throw new Core.NotAnOperationExeption();
+                        throw new ArgumentException("Operazione non valida!");
                     }
+
+                    double risultato;
 
                     if (operazioniSingolaCifra.Contains(operazione))
                     {
-                        MostraRisultato(primoNumero, operazione, 0, Core.Operazioni.Calcola(primoNumero, operazione), true);
+                        risultato = Core.Operazioni.Calcola(primoNumero, operazione);
                     }
                     else
                     {
+                        // Input secondo numero
                         MostraBoxInput("SECONDO NUMERO");
                         Console.Write("  ➤ ");
                         Console.ForegroundColor = ConsoleColor.Cyan;
-                        secondoNumero = Int32.Parse(Console.ReadLine());
+                        secondoNumero = double.Parse(Console.ReadLine());
                         Console.ResetColor();
 
-                        MostraRisultato(primoNumero, operazione, secondoNumero, Core.Operazioni.Calcola(primoNumero, secondoNumero, operazione), false);
+                        risultato = Core.Operazioni.Calcola(primoNumero, secondoNumero, operazione);
                     }
-                    break;
+
+                    // Mostra risultato
+                    MostraRisultato(primoNumero, operazione, secondoNumero, risultato, operazioniSingolaCifra.Contains(operazione));
+
+                    // Chiedi se continuare
+                    if (!ChiediContinuare())
+                        break;
+
+                    Console.Clear();
+                    MostraHeader();
+                    MostraOperazioniDisponibili();
+                }
+                catch (FormatException)
+                {
+                    MostraErrore("Inserisci un numero valido!");
+                }
+                catch (ArgumentException e)
+                {
+                    MostraErrore(e.Message);
                 }
                 catch (Core.NotAnOperationExeption e)
                 {
@@ -120,12 +144,12 @@ namespace Calcolatrice
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine($"  ╔══════════════════════════════╗");
-            Console.WriteLine($"  ║  Inserisci {titolo,-17} ║");
+            Console.WriteLine($"  ║  📝 Inserisci {titolo,-14} ║");
             Console.WriteLine($"  ╚══════════════════════════════╝");
             Console.ResetColor();
         }
 
-        static void MostraRisultato(double numero1, string operazione, double numero2, double risultato, bool singolaCifra)
+        static void MostraRisultato(double num1, string op, double num2, double risultato, bool singolaCifra)
         {
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
@@ -135,17 +159,22 @@ namespace Calcolatrice
 
             string operazioneStr;
             if (singolaCifra)
-                operazioneStr = $"{operazione}({numero1})";
+            {
+                operazioneStr = $"{op}({num1})";
+            }
             else
-                operazioneStr = $"{numero1} {operazione} {numero2}";
+            {
+                operazioneStr = $"{num1} {op} {num2}";
+            }
 
-            string risultatoStr = $"  ║  {operazioneStr} = {risultato}";
+            string risultatoStr = $"  ║  {operazioneStr} = {risultato:F4}";
             risultatoStr = risultatoStr.PadRight(53) + "║";
 
             Console.WriteLine(risultatoStr);
             Console.WriteLine("  ╚══════════════════════════════════════════════════╝");
             Console.ResetColor();
 
+            // Aggiungi effetto visivo
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(@"
                     ★ ★ ★ CALCOLO COMPLETATO ★ ★ ★
@@ -158,7 +187,7 @@ namespace Calcolatrice
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("  ╔══════════════════════════════════════════════════╗");
-            Console.WriteLine("  ║                     ERRORE                       ║");
+            Console.WriteLine("  ║                   ⚠️  ERRORE ⚠️                    ║");
             Console.WriteLine("  ╠══════════════════════════════════════════════════╣");
             string erroreStr = $"  ║  {messaggio}";
             erroreStr = erroreStr.PadRight(53) + "║";
@@ -168,15 +197,38 @@ namespace Calcolatrice
             Console.WriteLine();
         }
 
+        static bool ChiediContinuare()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("  ┌─────────────────────────────────────────┐");
+            Console.WriteLine("  │  Vuoi fare un altro calcolo? (s/n)     │");
+            Console.WriteLine("  └─────────────────────────────────────────┘");
+            Console.Write("  ➤ ");
+            Console.ResetColor();
+
+            string risposta = Console.ReadLine().ToLower();
+            return risposta == "s" || risposta == "si" || risposta == "sì";
+        }
+
         static void MostraArrivederci()
         {
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(@"
+
   ╔═══════════════════════════════════════════════════════════════╗
   ║                                                               ║
-  ║                      ★ Arrivederci! ★                         ║
+  ║     ██████╗ ██████╗  █████╗ ███████╗██╗███████╗██╗            ║
+  ║    ██╔════╝ ██╔══██╗██╔══██╗╚══███╔╝██║██╔════╝██║            ║
+  ║    ██║  ███╗██████╔╝███████║  ███╔╝ ██║█████╗  ██║            ║
+  ║    ██║   ██║██╔══██╗██╔══██║ ███╔╝  ██║██╔══╝  ╚═╝            ║
+  ║    ╚██████╔╝██║  ██║██║  ██║███████╗██║███████╗██╗            ║
+  ║     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚══════╝╚═╝            ║
+  ║                                                               ║
+  ║                  ★ Arrivederci! ★                             ║
   ║                                                               ║
   ╚═══════════════════════════════════════════════════════════════╝
+
 ");
             Console.ResetColor();
         }
