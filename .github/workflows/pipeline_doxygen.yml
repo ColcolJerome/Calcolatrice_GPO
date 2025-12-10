@@ -1,0 +1,26 @@
+name: Genera Documentazione
+
+on:
+  push:
+    branches: [ '*' ]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Installa Doxygen
+        run: sudo apt-get install -y doxygen graphviz
+      
+      - name: Genera docs
+        run: |
+            sed -i "s/^PROJECT_NUMBER.*/PROJECT_NUMBER = ${GITHUB_REF##*/}/" Doxyfile
+            doxygen Doxyfile
+      
+      - name: Upload docs
+        uses: actions/upload-artifact@v4
+        with:
+          name: documentazione
+          path: docs/html
