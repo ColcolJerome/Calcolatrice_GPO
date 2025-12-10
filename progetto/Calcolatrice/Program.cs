@@ -39,7 +39,7 @@ namespace Calcolatrice
 
                     if (!operazioni.Contains(operazione))
                     {
-                        throw new ArgumentException("Inserisci una operazione valida");
+                        throw new Core.NotAnOperationExeption();
                     }
 
                     if (operazioniSingolaCifra.Contains(operazione))
