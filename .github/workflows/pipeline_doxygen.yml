@@ -2,7 +2,8 @@ name: Genera Documentazione
 
 on:
   push:
-    branches: [ "*" ]
+    tags:
+      - 'v*'
 
 jobs:
   docs:
