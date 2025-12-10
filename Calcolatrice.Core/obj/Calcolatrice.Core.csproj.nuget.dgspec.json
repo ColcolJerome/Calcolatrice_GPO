@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj": {}
+    "c:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj": {
+    "c:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj",
+        "projectUniqueName": "c:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj",
         "projectName": "Calcolatrice.Core",
-        "projectPath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj",
+        "projectPath": "c:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\Calcolatrice.Core.csproj",
         "packagesPath": "C:\\Users\\Colco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\obj\\",
+        "outputPath": "c:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

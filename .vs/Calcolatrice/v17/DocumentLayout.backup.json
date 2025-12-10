@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36BD8AFF-96EF-4D03-8A01-7FECFFEAB604}|Calcolatrice.Tests\\Calcolatrice.Tests.csproj|c:\\users\\colco\\onedrive\\desktop\\gpo\\colcol_iqbal\\calcolatrice.tests\\integrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36BD8AFF-96EF-4D03-8A01-7FECFFEAB604}|Calcolatrice.Tests\\Calcolatrice.Tests.csproj|solutionrelative:calcolatrice.tests\\integrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36BD8AFF-96EF-4D03-8A01-7FECFFEAB604}|Calcolatrice.Tests\\Calcolatrice.Tests.csproj|c:\\users\\colco\\onedrive\\desktop\\gpo\\colcol_iqbal\\calcolatrice.tests\\testunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36BD8AFF-96EF-4D03-8A01-7FECFFEAB604}|Calcolatrice.Tests\\Calcolatrice.Tests.csproj|solutionrelative:calcolatrice.tests\\testunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36BD8AFF-96EF-4D03-8A01-7FECFFEAB604}|Calcolatrice.Tests\\Calcolatrice.Tests.csproj|c:\\users\\colco\\onedrive\\desktop\\gpo\\colcol_iqbal\\calcolatrice.tests\\integrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36BD8AFF-96EF-4D03-8A01-7FECFFEAB604}|Calcolatrice.Tests\\Calcolatrice.Tests.csproj|solutionrelative:calcolatrice.tests\\integrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TestUnit.cs",
               "DocumentMoniker": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\TestUnit.cs",
               "RelativeDocumentMoniker": "Calcolatrice.Tests\\TestUnit.cs",
               "ToolTip": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\TestUnit.cs",
               "RelativeToolTip": "Calcolatrice.Tests\\TestUnit.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAIwHwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAuwBAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T17:33:24.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IntegrationTest.cs",
               "DocumentMoniker": "C:\\Users\\Colco\\OneDrive\\Desktop\\GPO\\Colcol_Iqbal\\Calcolatrice.Tests\\IntegrationTest.cs",
               "RelativeDocumentMoniker": "Calcolatrice.Tests\\IntegrationTest.cs",
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Calcolatrice.Tests\\IntegrationTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T17:32:35.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T17:32:35.526Z"
             }
           ]
         }
