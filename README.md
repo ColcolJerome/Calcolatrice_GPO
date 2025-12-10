@@ -10,11 +10,9 @@ Il progetto permette di effettuare le principali operazioni matematiche (+, -, �
 - [Descrizione del progetto](#descrizione-del-progetto)
 - [Funzionalità](#funzionalità)
 - [Tecnologie utilizzate](#tecnologie-utilizzate)
+- [Verisone](#versione)
 - [Installazione e avvio](#installazione-e-avvio)
-- [Screenshot](#screenshot)
-- [Nuove feature proposte](#nuove-feature-proposte)
-- [Organizzazione del lavoro](#organizzazione-del-lavoro)
-- [Licenza](#licenza)
+
 
 ---
 
@@ -60,7 +58,7 @@ Nelle operazioni logiche come Somma,Moltiplicazione,Sottrazione,Divisione il pro
 
 ## Versione
 
-v1.1.0
+v1.1.1
 
 ---
 
