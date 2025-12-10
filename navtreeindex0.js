@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[2,0],
+"classCalcolatrice_1_1Core_1_1IsInfiniteExeption.html":[2,0,0,0,0],
+"classCalcolatrice_1_1Core_1_1IsInfiniteExeption.html":[1,0,0,0,0],
+"classCalcolatrice_1_1Core_1_1NotAnOperationExeption.html":[2,0,0,0,1],
+"classCalcolatrice_1_1Core_1_1NotAnOperationExeption.html":[1,0,0,0,1],
+"classCalcolatrice_1_1Core_1_1Operazioni.html":[2,0,0,0,2],
+"classCalcolatrice_1_1Core_1_1Operazioni.html":[1,0,0,0,2],
+"classes.html":[2,1],
+"functions.html":[2,3,0],
+"functions_func.html":[2,3,1],
+"hierarchy.html":[2,2],
+"index.html":[],
+"md_README.html":[0],
+"md_README.html#autotoc_md11":[0,4],
+"md_README.html#autotoc_md13":[0,5],
+"md_README.html#autotoc_md2":[0,0],
+"md_README.html#autotoc_md4":[0,1],
+"md_README.html#autotoc_md6":[0,2],
+"md_README.html#autotoc_md7":[0,2,0],
+"md_README.html#autotoc_md9":[0,3],
+"namespaceCalcolatrice.html":[1,0,0],
+"namespaceCalcolatrice_1_1Core.html":[1,0,0,0],
+"namespaces.html":[1,0],
+"pages.html":[]
+};
