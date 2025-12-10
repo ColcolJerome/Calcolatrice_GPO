@@ -10,11 +10,8 @@ Il progetto permette di effettuare le principali operazioni matematiche (+, -, �
 - [Descrizione del progetto](#descrizione-del-progetto)
 - [Funzionalità](#funzionalità)
 - [Tecnologie utilizzate](#tecnologie-utilizzate)
+- [Versioni](#versione)
 - [Installazione e avvio](#installazione-e-avvio)
-- [Screenshot](#screenshot)
-- [Nuove feature proposte](#nuove-feature-proposte)
-- [Organizzazione del lavoro](#organizzazione-del-lavoro)
-- [Licenza](#licenza)
 
 ---
 
