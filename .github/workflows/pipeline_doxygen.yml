@@ -2,7 +2,8 @@ name: Genera Documentazione
 
 on:
   push:
-    branches: [ '*' ]
+    tags:
+      - 'v*'
 
 jobs:
   docs:
@@ -10,17 +11,20 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Installa Doxygen
         run: sudo apt-get install -y doxygen graphviz
-      
-      - name: Genera docs
+
+      - name: Imposta versione nel Doxyfile
         run: |
-            sed -i "s/^PROJECT_NUMBER.*/PROJECT_NUMBER = ${GITHUB_REF##*/}/" Doxyfile
-            doxygen Doxyfile
-      
-      - name: Upload docs
-        uses: actions/upload-artifact@v4
+          sed -i "s/^PROJECT_NUMBER.*/PROJECT_NUMBER = ${GITHUB_REF_NAME}/" Doxyfile
+
+      - name: Genera docs
+        run: doxygen Doxyfile
+
+      - name: Deploy su GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: documentazione
-          path: docs/html
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/html
+
