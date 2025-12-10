@@ -10,9 +10,11 @@ Il progetto permette di effettuare le principali operazioni matematiche (+, -, �
 - [Descrizione del progetto](#descrizione-del-progetto)
 - [Funzionalità](#funzionalità)
 - [Tecnologie utilizzate](#tecnologie-utilizzate)
-- [Verisone](#versione)
 - [Installazione e avvio](#installazione-e-avvio)
-
+- [Screenshot](#screenshot)
+- [Nuove feature proposte](#nuove-feature-proposte)
+- [Organizzazione del lavoro](#organizzazione-del-lavoro)
+- [Licenza](#licenza)
 
 ---
 
@@ -27,6 +29,7 @@ L’obiettivo è mantenere un codice chiaro, commentato, documentato e versionat
 ## Funzionalità
 
 Nelle operazioni logiche come Somma,Moltiplicazione,Sottrazione,Divisione il programma chiede da CLI due numeri tra cui eseguire l'operazione; mentre nelle funzioni Potenza,Modulo,Radice,Seno,Coseno il programma richiede univocamente un unico numero.
+E' stata implementata un'interfaccia utente migliorata in stile "video-gioco retro".
 
 ### Funzionalità già implementate
 
